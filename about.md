@@ -3,6 +3,5 @@ layout: post
 title: About
 ---
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+Hi! I'm a passionate and dedicated penetration tester who break down all things offensive
+security in laymans terms. 

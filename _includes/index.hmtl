@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file if you have one -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- Add other existing links here -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Index Page</h1>
+        <ul id="index-list">
+            <!-- Links to other pages or items will go here -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+</body>
+</html>
