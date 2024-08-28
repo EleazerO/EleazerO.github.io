@@ -1,7 +1,8 @@
-
 title: Offensive Security
 author: EleazerO
 url: https://www.EleazerO.com # root address of the site
+description: > # description of the site (multiple lines allowed)
+  Is about people who try to hack into computer systems, networks, or websites to find security weaknesses. They use the same techniques and tools as real hackers, but they do it with permission and for a good reason: to help organizations identify and fix vulnerabilities before bad actors can exploit them.
 
 permalink: /:slug
 
