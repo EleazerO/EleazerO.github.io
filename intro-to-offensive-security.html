@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" class="html" data-theme="dark"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Intro to Offensive Security
+    
+  </title>
+
+  <!-- Begin Jekyll SEO tag v2.7.3 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Intro to Offensive Security" />
+<meta name="author" content="Eleazer.O" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to my cybersecurity journey, where I explore and share insights on penetration testing, vulnerability assessments, and Capture The Flag (CTF) challenges. Join me as I document my hands-on experience and learning in the field of ethical hacking and cybersecurity." />
+<meta property="og:description" content="Welcome to my cybersecurity journey, where I explore and share insights on penetration testing, vulnerability assessments, and Capture The Flag (CTF) challenges. Join me as I document my hands-on experience and learning in the field of ethical hacking and cybersecurity." />
+<link rel="canonical" href="http://localhost:4000/intro-to-offensive-security" />
+<meta property="og:url" content="http://localhost:4000/intro-to-offensive-security" />
+<meta property="og:site_name" content="Offensive Security" />
+<meta property="og:image" content="https://soopr.xyz/images/card?url=http://localhost:4000/intro-to-offensive-security" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="https://soopr.xyz/images/card?url=http://localhost:4000/intro-to-offensive-security" />
+<meta property="twitter:title" content="Intro to Offensive Security" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/intro-to-offensive-security","author":{"@type":"Person","name":"Eleazer.O"},"@type":"WebPage","description":"Welcome to my cybersecurity journey, where I explore and share insights on penetration testing, vulnerability assessments, and Capture The Flag (CTF) challenges. Join me as I document my hands-on experience and learning in the field of ethical hacking and cybersecurity.","headline":"Intro to Offensive Security","@context":"https://schema.org"}</script>
+<script async defer data-soopr-token="" src="https://sdk.soopr.co/soopr.js"  ></script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Offensive Security" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Favicon -->
+
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+    <script type="text/javascript">
+  window.addEventListener('load', themeChange);
+  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  if (currentTheme)
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+  function themeChange() {
+    let button = document.querySelector('.theme-toggle');
+
+    button.addEventListener('click', function (e) {
+      let currentTheme = document.documentElement.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+
+    let transition = () => {
+      document.documentElement.classList.add('transition');
+      window.setTimeout(() => {
+        document.documentElement.classList.remove('transition');
+      }, 1000);
+    }
+  }
+</script>
+
+
+  
+</head>
+<body>
+        <header>
+            
+            <a href="/">home..</a>
+            
+        </header>
+
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+                <h1 class="post-title">Intro to Offensive Security</h1>
+<p class="post-date text-bold">
+  
+    <span class="text-upcase">Eleazer.O</span> / 
+  
+  
+
+
+</p>
+
+<div class="soopr-btn"
+   data-twitter="SooprCo"
+>
+</div>
+
+
+  <div class="">
+    
+    <span class="tag">gobuster</span>
+    
+    <span class="tag">CLI</span>
+    
+    <span class="tag">GUI</span>
+    
+  </div>
+
+
+<h2 id="task-1---what-is-offensive-security">TASK 1 - What is Offensive Security?</h2>
+
+<p>TIP: Try to understand concepts deeply before referring to the answer</p>
+
+<p><strong>Offensive security</strong><br /></p>
+
+<p><img src="redteaming.png" alt="Description of the image" /></p>
+
+<p>All of this is about simulating the action of a malicious hacker and reporting them before the actual hacker is able to exploit the vulnerabilities the ethical hacker found.</p>
+
+<p>What do they hackers hack?</p>
+<ul>
+  <li>Web applications (Websites)</li>
+  <li>Infrastructure (Computers,Phones,IOT Devices)</li>
+  <li>Cloud</li>
+  <li>Networks</li>
+  <li>Budlings and People (Testing an organizations security by breaking in and tricking people through social engineering)</li>
+</ul>
+
+<p>Under offensive security there are 2 main branches:
+<strong><em>Penetration Testing</em></strong> and <strong><em>Red Teaming</em></strong>.</p>
+
+<p><strong><em>Pentesting</em></strong> involves hacking within set a scope the organization wants you to abide by when you are hacking which could be any of the systems mentioned above although its mainly Web applications, Infrastructure and cloud</p>
+
+<p><strong><em>Red</em></strong> Teaming on the other hand is simulated full on attack with no restrictions what so ever ussualy including the buiding itself, systems listed above and even the employees</p>
+
+<p>Check these videos out to get an idea .</p>
+
+<p><strong><em>Red Teaming</em></strong>
+<a href="https://www.youtube.com/watch?v=pL9q2lOZ1Fw&amp;ab_channel=InsiderTech">Watch the video on YouTube</a></p>
+
+<p><strong><em>Pentesting</em></strong>
+<a href="https://www.youtube.com/watch?v=_NVxgQdA45g&amp;ab_channel=careersnz">Watch the video on YouTube</a></p>
+
+<p>On the other hand, defensive security is about protecting computer systems and networks from attacks. This involves looking for any signs of hacking, figuring out how it happened if something was breached, and keeping an eye on everything to spot any malicious activity. It’s like being a digital detective and security guard all rolled into one.</p>
+
+<p><strong><em>QUESTION</em></strong>:<br />
+ Which of the following options better represents the process where you simulate a hacker’s actions to find vulnerabilities in a system?</p>
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    Offensive Security
+</details>
+<p><br />
+<br /></p>
+
+<h2 id="task-2---hacking-your-first-machine">TASK 2 - Hacking your first machine</h2>
+
+<p>Let’s start by accessing the machine. Here’s a step-by-step guide:</p>
+
+<p><strong>Step 1 : Open the terminal</strong></p>
+
+<p>What is Terminal?<br />
+The terminal, also known as the command line or command prompt(CLI), is a text-based interface used to interact with a computer’s operating system. Imagine it as a conversation between you and your computer, where instead of clicking on icons or menus, you type out commands. Here’s an image:</p>
+
+<p><img src="CLI.png" alt="Description of the image" /></p>
+
+<p>What is GUI?
+<br /> A GUI, or Graphical User Interface on the other hand is like the “face” of your computer that you interact with using visual elements rather than text commands. It’s what you see on the screen, including windows, icons, buttons, and menus, which you can click on to perform various tasks. Here’s an Image:</p>
+
+<p><img src="gui.png" alt="Description of the image" /></p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<p>Step 2 Using Gobuster</p>
+
+<p>The tool used in this task is called Gobuster which is a tool to find hidden parts of a website(known as directories) or servers that aren’t meant to be easily found. Think of it like a digital treasure hunt where you’re trying to discover secret doors and hidden rooms in a building.</p>
+
+<p>Use this  command: <br /><code class="language-plaintext highlighter-rouge">gobuster -u  http://fakebank.com -w wordlist.txt dir</code><br /></p>
+
+<p>It scans the specified website (http://fakebank.com) for hidden directories(a folder) and files listed in wordlist.txt file. It identifies which of these directories and files exist on the server by sending HTTP requests and checking the server’s responses. In the results below we see the directories that where hidden.</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">/images</code></li>
+  <li><code class="language-plaintext highlighter-rouge">/bank-transfer</code></li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ubuntu@tryhackme:~/Desktop$ gobuster -u http://fakebank.com -w wordlist.txt dir
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://fakebank.com/
+[+] Threads      : 10
+[+] Wordlist     : wordlist.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Timeout      : 10s
+=====================================================
+2024/06/20 12:38:08 Starting gobuster
+=====================================================
+/images (Status: 301)
+/bank-transfer (Status: 200)
+=====================================================
+2024/06/20 12:38:16 Finished
+=====================================================
+
+</code></pre></div></div>
+<p>Now that we’ve got the path that allows us to send money key in the path search
+add the path to fakebank like in the screen shot . When you find it and type in the account number and 2000$</p>
+
+<p><img src="tranf.png" alt="Description of the image" />
+Click on send money and you should see this message:</p>
+
+<p><br /></p>
+
+<p><img src="tranftick.png" alt="Description of the image" />
+Return by clicking on Fakebank icon or going back.</p>
+
+<p>Thats it!🎉
+<img src="tranconf.png" alt="Description of the image" /></p>
+
+<h2 id="task-3---hacking-your-first-machine">TASK 3 - Hacking your first machine</h2>
+<p>Read up on the role descriptions, those are the main offensive roles</p>
+
+<p>This room  explores offensive and defensive security concepts. Offensive security involves simulating hacker actions to identify system vulnerabilities before real attacks occur, while defensive security focuses on protecting systems and detecting breaches.</p>
+
+<p>Gobuster is used for finding hidden website directories/pages</p>
+
+<p>CLI: A text-based interface for interacting with the operating system by typing commands.</p>
+
+<p>GUI: A visual interface that allows interaction with the operating system using graphical elements such as icons, windows, and buttons.</p>
+
+<p>That’s this room done.
+Doing a few  minutes or an hour a day will accumalte over time if you keep at it.
+See you in the next room…</p>
+
+
+                
+                    <button title="Toggle Theme" class="theme-toggle">
+  <svg viewBox="0 0 32 32" width="24" height="24" fill="currentcolor">
+    <circle cx="16" cy="16" r="14" fill="none" stroke="currentcolor" stroke-width="4"></circle>
+    <path d="
+             M 16 0
+             A 16 16 0 0 0 16 32
+             z">
+    </path>
+  </svg>
+</button>
+
+                
+                <div class="credits">&copy;&nbsp;2024&nbsp;EleazerO
+                    &nbsp;
+                    •
+                    &nbsp;Powered by <a href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>
+                    &nbsp;
+                    •
+                    &nbsp;Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
+                </div>
+            </div>
+        </main><script async defer src="https://sdk.soopr.co/soopr.js"></script></body>
+</html>
