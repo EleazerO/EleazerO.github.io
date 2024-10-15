@@ -1,18 +1,21 @@
 title: Offensive Security
 author: EleazerO
 url: https://www.EleazerO.com # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Is about people who try to hack into computer systems, networks, or websites to find security weaknesses. They use the same techniques and tools as real hackers, but they do it with permission and for a good reason: to help organizations identify and fix vulnerabilities before bad actors can exploit them.
+description: >
+  Welcome to my cybersecurity journey, where I explore and share insights on
+  penetration testing, vulnerability assessments, and Capture The Flag (CTF) challenges.
+  Join me as I document my hands-on experience and learning in the field of
+  ethical hacking and cybersecurity.
 
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
-twitter:
-    username: abhinav # update or delete this
-    card: summary_large_image
+#twitter:
+  #username: abhinav # update or delete this
+  #card: summary_large_image
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+# theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
 
 theme_config:
@@ -22,21 +25,21 @@ theme_config:
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
-  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_footer: false # show footer links in home page, add in _data/home.yml
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
   show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
-  show_old_projects: true # show old projects as cards, add in _data/home.yml
+  show_blog: false # hide blog posts added in _posts
+  show_old_projects: false # hide old projects as cards
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
   show_reading_time: false # show number of words and reading time in the blog posts
-  show_tags: true # show tags in a blog posts
+  show_tags: true # show tags in blog posts
   # options for "home" page
   home:
-    title_projects: Walkthrough Write Ups
+    title_projects: Walkthroughs # Title for the projects section
     title_misc_list: Details
-    title_blog: Blog
-    title_old_projects: Cheatsheets
+    title_blog: Blogg # This won't show since `show_blog` is false
+    title_old_projects: Cheatsheets # This won't show since `show_old_projects` is false
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
