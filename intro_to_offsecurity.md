@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Eleazer
+author: Eleazer.O 
 tags: [gobuster, CLI,GUI]
 title: "Intro to Offensive Security"
 permalink: /intro-to-offensive-security
@@ -11,7 +11,8 @@ permalink: /intro-to-offensive-security
 
 TIP: Try to understand concepts deeply before referring to the answer
 
-Offensive security/Red team
+ **Offensive security**<br>
+
 ![Description of the image](redteaming.png)
 
 
@@ -43,24 +44,27 @@ Check these videos out to get an idea .
 
 On the other hand, defensive security is about protecting computer systems and networks from attacks. This involves looking for any signs of hacking, figuring out how it happened if something was breached, and keeping an eye on everything to spot any malicious activity. It's like being a digital detective and security guard all rolled into one.
 
-***QUESTION***: Which of the following options better represents the process where you simulate a hacker's actions to find vulnerabilities in a system?
+***QUESTION***:<br>
+ Which of the following options better represents the process where you simulate a hacker's actions to find vulnerabilities in a system?
 
-* Offensive Security
-* Defensive Security
 
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    Offensive Security
+</details>
 <br>
 <br>
-<br>
 
 
-***ANSWER***:
- Offensive Security
+
+
 
 ## TASK 2 - Hacking your first machine
 
-<br>
+Let's start by accessing the machine. Here's a step-by-step guide:
 
-Step 1 Click on the terminal icon
+**Step 1 : Open the terminal**
 
 What is Terminal?<br>
 The terminal, also known as the command line or command prompt(CLI), is a text-based interface used to interact with a computer's operating system. Imagine it as a conversation between you and your computer, where instead of clicking on icons or menus, you type out commands. Here's an image:
@@ -85,7 +89,9 @@ Step 2 Using Gobuster
 The tool used in this task is called Gobuster which is a tool to find hidden parts of a website(known as directories) or servers that aren't meant to be easily found. Think of it like a digital treasure hunt where you're trying to discover secret doors and hidden rooms in a building.
 
 
-Use this  command: <br>`gobuster -u  http://fakebank.com -w wordlist.txt dir` scans the specified website (http://fakebank.com) for hidden directories(a folder) and files listed in wordlist.txt. It identifies which of these directories and files exist on the server by sending HTTP requests and checking the server's responses. As you can see in the image below the 2 site locations  that are regular user will not see are :
+Use this  command: <br>`gobuster -u  http://fakebank.com -w wordlist.txt dir`<br>
+
+It scans the specified website (http://fakebank.com) for hidden directories(a folder) and files listed in wordlist.txt file. It identifies which of these directories and files exist on the server by sending HTTP requests and checking the server's responses. In the results below we see the directories that where hidden.
 
 1. `/images`
 2. `/bank-transfer`
@@ -135,8 +141,16 @@ Thats it!🎉
 Read up on the role descriptions, those are the main offensive roles
 
 
-This room  "explores offensive and defensive security concepts. Offensive security involves simulating hacker actions to identify system vulnerabilities before real attacks occur, while defensive security focuses on protecting systems and detecting breaches.  Gobuster is used for finding hidden website directories, showcasing CLI (Command Line Interface) and GUI (Graphical User Interface) differences. It provides practical steps, such as using Gobuster to scan a website for hidden directories and executing simulated transactions through a GUI interface.
+This room  explores offensive and defensive security concepts. Offensive security involves simulating hacker actions to identify system vulnerabilities before real attacks occur, while defensive security focuses on protecting systems and detecting breaches.
+
+
+ Gobuster is used for finding hidden website directories/pages
+
+ CLI: A text-based interface for interacting with the operating system by typing commands.
+
+
+ GUI: A visual interface that allows interaction with the operating system using graphical elements such as icons, windows, and buttons.
 
 That's this room done.
 Doing a few  minutes or an hour a day will accumalte over time if you keep at it.
-All the best 🙌
+See you in the next room...
