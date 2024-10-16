@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Eleazer.O 
+author: Eleazer
 tags: [gobuster, CLI,GUI]
 title: "Intro to Offensive Security"
 permalink: /intro-to-offensive-security
@@ -152,5 +152,5 @@ This room  explores offensive and defensive security concepts. Offensive securit
  GUI: A visual interface that allows interaction with the operating system using graphical elements such as icons, windows, and buttons.
 
 That's this room done.
-Doing a few  minutes or an hour a day will accumalte over time if you keep at it.
+Doing a few  minutes or an hour a day will accumulate over time if you keep at it.
 See you in the next room...
