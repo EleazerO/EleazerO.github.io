@@ -12,7 +12,7 @@ This section repeats in the Junior Penetration Testing Course⬇️
 ## SECTION 1 - Introduction to Cyber Security
 - [Intro to Offensive Security](/intro-to-offensive-security)
 
-<!--
+{% comment %}
 - [Intro to Defensive Security](/intro-to-defensive-security)
 
 The following sections are hidden and will not be displayed on the site:
@@ -42,4 +42,4 @@ The following sections are hidden and will not be displayed on the site:
 - [Windows Fundamentals 1](/Windows-Fundamentals-1)
 - [Windows Fundamentals 2](/Windows-Fundamentals-2)
 - [Windows Fundamentals 3](/Windows-Fundamentals-3)
--->
+{% endcomment %}
