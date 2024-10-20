@@ -9,17 +9,14 @@ permalink: /pre-security
 This section repeats in the Junior Penetration Testing Course⬇️
 -->
 
-
 ## SECTION 1 - Introduction to Cyber Security
 - [Intro to Offensive Security](/intro-to-offensive-security)
 
 <!--
 - [Intro to Defensive Security](/intro-to-defensive-security)
 
-
 The following sections are hidden and will not be displayed on the site:
 - [Careers in Cyber](/careers-in-cyber)
-
 
 ## SECTION 2 - Network Fundamentals
 - [What is Networking?](/what-is-networking)
@@ -27,7 +24,6 @@ The following sections are hidden and will not be displayed on the site:
 - [OSI Model](/OSI-Model)
 - [Packets & Frames](/packets&frames)
 - [Extending Your Network](/Extending-Your-Network)
-
 
 ### SECTION 3 - How the Web Works
 - [DNS in Detail](/DNS-in-Detail)
@@ -46,5 +42,4 @@ The following sections are hidden and will not be displayed on the site:
 - [Windows Fundamentals 1](/Windows-Fundamentals-1)
 - [Windows Fundamentals 2](/Windows-Fundamentals-2)
 - [Windows Fundamentals 3](/Windows-Fundamentals-3)
-
 -->
