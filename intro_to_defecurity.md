@@ -6,7 +6,6 @@ title: "Intro to Defensive Security"
 permalink: /intro-to-defensive-security
 ---
 
-THE first 2 sections are reading tasks. Here's a simplified explanation. Some of the content has be kept the same because they're just fine
 
 ## TASK 1 - Introduction to  Defensive  Security
 
@@ -26,28 +25,24 @@ Terms listed: Explained
 * Setting up logging and monitoring devices: Logging is like keeping a detailed diary of everything happening on a network. It records who's using what and when. Monitoring is like having security guards watch the cameras and logs in real-time. They look for anything unusual, like a stranger sneaking into a building, to stop problems before they get serious.
 
 
-***QUESTION***<br>
+***Question***<br>
 Which team focuses on defensive security?
 
 
 
-<br>
-<br>
-<br>
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  Blue Team
+</details>
 <br>
 <br>
 
-
-
-***ANSWER***<br>
-Blue Team
-
-
-<br>
 
 ## TASK 2 - Areas of Defensive Security
 
-1. A ***Security Operations Centre (SOC)*** is a team of cyber security professionals that are on the look out for activity from the bad guys (hackers) on a network or the operating system
+  ***Security Operations Centre (SOC)***
+
+  is a team of cyber security professionals that are on the look out for activity from the bad guys (hackers) on a network or the operating system
 They focus on :
 
 * Vulnerabilities: Whenever a system vulnerability/CVE (weakness) is discovered, it is essential to fix it by installing a proper update or patch This because hackers are always on the job and one the best ways is to be working with the operating system providers because they release patches (that fix the vulnerabilities that were on the previous os version ) .When a fix is not available, the necessary measures should be taken to prevent an attacker from exploiting it. Although remediating vulnerabilities is of vital interest to a SOC, it is not necessarily assigned to them.
@@ -59,32 +54,49 @@ They focus on :
 Network intrusions: No matter how good your security is, there is always a chance for an intrusion. An intrusion can occur when a user clicks on a malicious link or when an attacker exploits a public server. Either way, when an intrusion occurs, we must detect it as soon as possible to prevent further damage .Security operations cover various tasks to ensure protection; one such task is threat intelligence.
 
 
+ ***Threat Intelligence***
 
-2. ***Threat Intelligence***
+Threat  intelligence refers to information they  gather about actual and potential enemies. A ***threat*** is any action that can disrupt or adversely affect a system. Threat intelligence aims to gather information to help the company better prepare against potential adversaries. The purpose would be to achieve a threat-informed defence. Different companies have different adversaries. Some adversaries might seek to steal customer data from a mobile operator; however, other adversaries are interested in halting the production in a petroleum refinery(That have SCADA devices used to cotrol apliances in the refinery)
 
-Threat  intelligence refers to information they  gather about actual and potential enemies. A ***threat*** is any action that can disrupt or adversely affect a system. Threat intelligence aims to gather information to help the company better prepare against potential adversaries. The purpose would be to achieve a threat-informed defence. Different companies have different adversaries. Some adversaries might seek to steal customer data from a mobile operator; however, other adversaries are interested in halting the production in a petroleum refinery. Example adversaries include a nation-state cyber army working for political reasons and a ransomware(a type of malware that disables you from accessing your files and data that may be lost if the hackers requirements aren't met  ) group acting for financial purposes. Based on the company (target), we can expect adversaries.
+Example adversaries include a nation-state cyber army working for political reasons and a ransomware(a type of malware that disables you from accessing your files and data that may be lost if the hackers requirements aren't met  ) group acting for financial purposes. Based on the company (target), we can expect adversaries.
 
-Intelligence needs data. Data has to be collected, processed, and analyzed. Data collection is done from local sources such as network logs and public sources such as forums. Processing of data aims to arrange them into a format suitable for analysis. The analysis phase seeks to find more information about the attackers and their motives; moreover, it aims to create a list of recommendations and actionable steps.
+![threatintel](/threatintel.png)
+
+Intelligence needs data. Data has to be collected, processed, and analysed. Data collection is done from local sources such as network logs and public sources such as forums. Processing of data aims to arrange them into a format suitable for analysis. The analysis phase seeks to find more information about the attackers and their motives; moreover, it aims to create a list of recommendations and actionable steps.
 
 Learning about adversaries allows you to know their tactics, techniques, and procedures. As a result of threat intelligence, we identify the threat actor (adversary), predict their activity, and consequently, we will be able to mitigate their attacks and prepare a response strategy.
 
-3. ***Digital Forensics and Incident Response (DFIR)***
+ ***Digital Forensics and Incident Response (DFIR)***
+
+
+
 Forensics is the application of science to investigate crimes and establish facts. With the use and spread of digital systems, such as computers and smartphones, a new branch of forensics was born to investigate related crimes: computer forensics, which later evolved into, digital forensics.
 
 In defensive security, the focus of digital forensics shifts to analysing evidence of an attack and its perpetrators and other areas such as intellectual property theft, cyber espionage, and possession of unauthorized content. Consequently, digital forensics will focus on different areas such as:
 
 File System: Analysing a digital forensics image (low-level copy) of a system’s storage reveals much information, such as installed programs, created files, partially overwritten files, and deleted files.
+
 System memory: If the attacker is running their malicious program in memory without saving it to the disk, taking a forensic image (low-level copy) of the system memory is the best way to analyse its contents and learn about the attack.
+
 System logs: Each client and server computer maintains different log files about what is happening. Log files provide plenty of information about what happened on a system. Some traces will be left even if the attacker tries to clear their traces.
+
+
 Network logs: Logs of the network packets that have traversed a network would help answer more questions about whether an attack is occurring and what it entails.
-Incident Response
+
+
+***Incident Response***
+
+
 An incident usually refers to a data breach or cyber attack; however, in some cases, it can be something less critical, such as a misconfiguration, an intrusion attempt, or a policy violation. Examples of a cyber attack include an attacker making our network or systems inaccessible, defacing (changing) the public website, and data breach (stealing company data). How would you respond to a cyber attack? Incident response specifies the methodology that should be followed to handle such a case. The aim is to reduce damage and recover in the shortest time possible. Ideally, you would develop a plan ready for incident response.
 
 The four major phases of the incident response process are:
 
 Preparation: This requires a team trained and ready to handle incidents. Ideally, various measures are put in place to prevent incidents from happening in the first place.
+
 Detection and Analysis: The team has the necessary resources to detect any incident; moreover, it is essential to further analyse any detected incident to learn about its severity.
+
 Containment, Eradication, and Recovery: Once an incident is detected, it is crucial to stop it from affecting other systems, eliminate it, and recover the affected systems. For instance, when we notice that a system is infected with a computer virus, we would like to stop (contain) the virus from spreading to other systems, clean (eradicate) the virus, and ensure proper system recovery.
+
 Post-Incident Activity: After successful recovery, a report is produced, and the learned lesson is shared to prevent similar future incidents.
 
 
@@ -101,14 +113,20 @@ Malware stands for malicious software. Software refers to programs, documents, a
 
 ### Security Operations Centre (SOC) ###
 
-Purpose: A SOC is like a security guard for a company's digital world.
+A Security Operations Center (SOC) is a team of experts responsible for keeping a company’s network safe by watching for and responding to cyberattacks or other security issues. Think of them like the security guards of a company’s digital world. Here’s a breakdown of what they do, explained simply:
 
-Tasks: They monitor the company's networks and systems 24/7 to spot and stop any suspicious activity or cyber attacks. They use special tools to watch out for anything unusual and respond quickly if they see a problem.
+Vulnerabilities: These are weak points in a system, like a crack in a wall. If the SOC finds one, they try to "patch" it by applying a fix or update. If no fix is available, they make sure to block any attackers from getting through that weakness. While fixing these weaknesses is crucial, other teams might handle the actual patching.
 
-Goal: The main goal is to keep the company’s data and systems safe from hackers and other cyber threats.
+Policy Violations: The company has certain rules, like "don’t upload sensitive files to unsafe places." If someone breaks these rules, the SOC gets involved to stop the risky behaviour, just like security at a bank would stop you from leaving a vault door open.
 
-Digital Forensics and Incident Response (DFIR)
-Digital Forensics: Imagine you are a detective, but for computers. When a cyber attack happens, digital forensics experts investigate to find out what happened, how it happened, and who did it. They look at digital evidence like logs and data files to piece together the story of the attack.
+Unauthorized Activity: If someone steals a user’s login info (like their username and password), they could pretend to be that person. The SOC’s job is to notice this suspicious activity and shut it down quickly before anything bad happens.
+
+Network Intrusions: Even with strong defences, hackers might find a way in, for example, through a fake email link or by exploiting a company’s exposed server. The SOC detects these intrusions and acts fast to minimize damage, just like detecting a burglar and preventing them from stealing more.
+
+Overall, the SOC keeps watch over a company’s digital security, preventing and responding to threats in real time. They also rely on threat intelligence, which means they gather and analyse data about possible dangers to stay ahead of attackers.
+
+
+
 
 ### Incident Response: ###
 This is like the emergency team that jumps into action during and after a cyber attack. They work to stop the attack, fix any damage, and make sure it doesn’t happen again. They also communicate with the SOC and use their findings from digital forensics to improve security.
@@ -122,42 +140,37 @@ In short, the SOC focuses on preventing and detecting cyber attacks, while DFIR 
 
 
 
-## QUESTION ##
+***Question***<br>
 What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?
 
 
-<br>
-<br>
-
-***ANSWER***
-<br>
-Security Operations Center
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  Security Operations Centre
+</details>
 
 
 
-## QUESTION ##
+***Question***<br><br>
 What does DFIR stand for?
 
 
-<br>
-<br>
-
-***ANSWER***
-<br>
-Digital Forensics and Incident Response
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  Digital Forensics and Incident Response
+</details>
 
 
-
-## QUESTION ##
+***Question***<br>
 Which kind of malware requires the user to pay money to regain access to their files
 
-<br>
-<br>
 
-*ANSWER*
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  Ransomware
+</details>
 <br>
-Ransommware
-
+<br>
 
 ## TASK 3 - practical
 
@@ -187,7 +200,7 @@ We have to report to person monitors the company's networks and systems 24/7 to 
 
 
 
-Here we can put in the IP address that was sus earlier, the IP that attempted an unauthorized login, 143.110.250.149
+Here we can put in the IP address that was suspicious earlier, the IP that attempted an unauthorized login, 143.110.250.149
 ![Description of the image](blocklist.png)
 
 
@@ -195,5 +208,7 @@ Lets block it!
 ![Description of the image](blocklistip.png)
 
 
-And there we have it. The Flag's is THM{THREAT-BLOCKED}
-![Description of the image](CTFip.png)
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  THM{THREAT-BLOCKED}
+</details>

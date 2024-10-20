@@ -12,12 +12,10 @@ This section repeats in the Junior Penetration Testing Course⬇️
 
 ## SECTION 1 - Introduction to Cyber Security
 - [Intro to Offensive Security](/intro-to-offensive-security)
+- [Intro to Defensive Security](/intro-to-defensive-security)
 
 <!--
 The following sections are hidden and will not be displayed on the site:
-
-
-- [Intro to Defensive Security](/intro-to-defensive-security)
 - [Careers in Cyber](/careers-in-cyber)
 
 

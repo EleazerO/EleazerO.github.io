@@ -1,7 +1,3 @@
-```markdown
-
-
-
 
 ---
 layout: post
@@ -175,7 +171,7 @@ What response header tells the browser how much data to expect?
 
 <details>
   <summary><strong>Click to see Answer</strong></summary>
-    Content-Length
+    201
 </details>
 
 
@@ -193,6 +189,8 @@ HTTP methods are like instructions that tell a web server what you want to do wi
 
 
 **Question**
+
+
 What method would be used to create a new user account?
 
 <details>
@@ -204,6 +202,8 @@ What method would be used to create a new user account?
 <br>
 
 **Question**
+
+
 What method would be used to update your email address?
 
 <details>
@@ -216,6 +216,8 @@ What method would be used to update your email address?
 
 
 **Question**
+
+
 What method would be used to remove a picture you've uploaded to your account?
 
 <details>
@@ -228,6 +230,8 @@ What method would be used to remove a picture you've uploaded to your account?
 
 
 **Question**
+
+
 What method would be used to remove a picture you've uploaded to your account?
 
 <details>
@@ -239,6 +243,8 @@ What method would be used to remove a picture you've uploaded to your account?
 <br>
 
 **Question**
+
+
 What method would be used to remove a picture you've uploaded to your account?
 
 <details>
@@ -251,6 +257,8 @@ What method would be used to remove a picture you've uploaded to your account?
 
 
 **Question**
+
+
 What method would be used to view a news article?
 
 <details>
@@ -264,10 +272,294 @@ What method would be used to view a news article?
 
 ## Task 4 - HTTP status codes ##
 
+HTTP status codes are numbers that a website sends back to your browser to let you know what happened when you made a request (like when you visit a webpage). These codes are divided into five categories, and here’s a simple breakdown of what they mean:
+
+Categories:
+100-199 (Information Responses): This means the server got the first part of your request and is telling you to keep sending the rest of it. These aren’t used very often anymore.
+
+200-299 (Success): Your request was successful! Everything went fine.
+
+300-399 (Redirection): The server is telling you to look somewhere else. It’s redirecting you to another webpage or site.
+
+400-499 (Client Errors): Something went wrong with your request (like missing information or trying to access a page you’re not allowed to see).
+
+500-599 (Server Errors): Something is wrong on the server’s side, meaning the website had trouble handling your request.
+
+Common HTTP Status Codes:
+200 OK: Everything worked perfectly. The page loaded as expected.
+
+201 Created: Something was successfully created, like a new user account or blog post.
+
+301 Moved Permanently: The page you’re looking for has been moved somewhere else, and this change is permanent.
+
+302 Found: The page is temporarily located somewhere else for now, but it might move again.
+
+400 Bad Request: There was a mistake in your request, like missing information or wrong formatting.
+
+401 Not Authorized: You need to log in (with a username and password) to access this page.
+
+403 Forbidden: You’re not allowed to access this page, even if you’re logged in.
+
+404 Page Not Found: The page you’re looking for doesn’t exist.
+
+405 Method Not Allowed: You’re using the wrong method for the request (like trying to open a form with the wrong command).
+
+500 Internal Service Error: The server ran into a problem it can’t figure out.
+
+503 Service Unavailable: The server is either too busy or undergoing maintenance, so it can’t handle your request right now.
+
+
+These codes help you understand what’s happening when you visit a webpage or interact with an online service
+
+
+***Question***<br>
+What response code might you receive if you've created a new user or blog post article?
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    Offensive Security
+</details>
+
+<br>
+<br>
+
+**Question**<br>
+What response code might you receive if you've tried to access a page that doesn't exist?
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    201
+</details>
+
+<br>
+<br>
+
+**Question**<br>
+What response code might you receive if you've tried to access a page that doesn't exist?
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    404
+</details>
+
+<br>
+<br>
+
+**Question**<br>
+What response code might you receive if the web server cannot access its database and the application crashes?
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    503
+</details>
+
+<br>
+<br>
+
+**Question**<br>
+What response code might you receive if the web server cannot access its database and the application crashes?
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    401
+</details>
+
+
 
 ## Task 5 - HTTP headers ##
 
+Headers are extra pieces of information that your browser and a web server send to each other when you load a webpage. These help make sure the page works properly. Here’s a simple breakdown of the two types of headers:
+
+Common Request Headers (sent from your browser to the web server):
+Host: This tells the server which website you want, especially if the server hosts more than one site. Without it, the server might send you the default site.
+
+User-Agent: This tells the server what browser you’re using (like Chrome, Firefox, etc.) and its version. This helps the website work properly for your browser because not all browsers display content the same way.
+
+Content-Length: If you’re sending data to the server, like when filling out a form, this tells the server how much data you’re sending. The server uses it to make sure it gets all the information.
+
+Accept-Encoding: This tells the server what kinds of compression your browser can handle. Compressing data makes it quicker to send over the internet.
+
+Cookie: This sends information stored in your browser (like login details or preferences) back to the server so it can remember you from a previous visit.
+
+Common Response Headers (sent from the web server to your browser):
+Set-Cookie: The server tells your browser to store some information, like login status or user preferences, so it can remember you the next time you visit.
+
+Cache-Control: This tells your browser how long it can store a webpage (in its memory) before needing to check the server for updates. This makes future visits to the page faster.
+
+Content-Type: This tells your browser what type of file is being sent, like an HTML webpage, an image, or a PDF. Knowing the type helps the browser display the content correctly.
+
+Content-Encoding: This shows what method was used to compress the data, so your browser knows how to decompress and display it properly.
+
+Headers help smooth communication between your browser and the web server, making sure the right website is loaded, displayed correctly, and remembers your preferences.
+
+**Question**<br>
+What header tells the web server what browser is being used?
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    User-Agent
+</details>
+
+<br>
+<br>
+
+**Question**<br>
+What header tells the browser what type of data is being returned?
+
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    Content-Type
+</details>
+
+<br>
+<br>
+
+**Question**<br>
+What header tells the web server which website is being requested?
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    Host
+</details>
+
+
+
+
 ## Task 6 - HTTP cookies ##
+
+![cookies](/cookies.png)
+
+***What Are Cookies in Web Browsing?***
+
+You’ve probably come across the term cookies when browsing the web. In simple terms, cookies are small bits of data that are stored on your computer by websites you visit. They help websites "remember" who you are and personalize your experience.
+
+How Do Cookies Work?
+When you visit a website, the server sends a special header called **Set-Cookie** to your browser. This stores a cookie on your device. From that moment on, every time you make another request to the same website (like clicking a link or visiting a new page), your browser sends that cookie back to the server. Since the internet uses HTTP, which is "stateless" (meaning it doesn’t remember your previous visits), cookies help the website recall your preferences or recognize you as a returning user.
+
+Common Uses of Cookies
+One of the most common uses of cookies is for authentication. When you log in to a website, instead of constantly asking for your username and password every time you visit a new page, the website uses cookies to keep you logged in. The cookie usually contains a token, which is a unique, hard-to-guess code that identifies you securely without storing sensitive data like your password in plain text.
+
+How to View Cookies in Your Browser
+If you want to see what cookies are being sent between your browser and a website, you can use the developer tools built into your browser. Here's how:
+
+Open Developer Tools: You can access this by right-clicking on the page and selecting "Inspect" or by pressing F12.
+Go to the "Network" Tab: This shows all the resources that your browser requests from the website.
+Check the "Cookies" Tab: For each resource, click on it to view details. If your browser sent a cookie, it will appear in the "Cookies" section of the request.
+This will give you a behind-the-scenes look at how cookies are working to keep track of your interactions with the website.
+
+Final Thoughts
+Cookies are a crucial part of how modern websites function, enabling smoother and more personalized experiences. While they can raise privacy concerns, they also help keep you logged in and streamline how you interact with websites on the internet. If you’re curious about how websites use cookies with your data, viewing them in your browser’s developer tools can be a helpful way to explore what's happening under the hood.
+
+***Question***<br>
+Which header is used to save cookies to your computer?
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+    Set-Cookie
+</details>
+
+<br>
+<br>
+
 
 
 ## Task 7- HTTP making requests  ##
+
+***Question***
+Make a GET request to /room
+
+To solve this set the request to a GET  request from the pNEL
+
+Then we type in the  name of the directory/page we're requesting for,room
+
+![get](/GETrequestinaction.png)
+
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  THM{YOU'RE_IN_THE_ROOM}
+</details>
+
+
+<br>
+<br>
+
+***Question***<br>
+Make a GET request to /blog and using the gear icon set the id parameter to 1 in the URL field
+
+
+To solve this set the request to GET from the panel  and the directory to /blog
+
+![b](/getrequestblogs.png)
+
+Next we set the parameter to id and the value to 1
+![b](/getrequestidparameter.png)
+
+
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  THM{YOU_FOUND_THE_BLOG}
+</details>
+
+
+<br>
+<br>
+
+***Question***<br>
+Make a DELETE request to /user/1
+
+To solve this we make a PUT request from the panel and type the      /user/1 directory to make a request
+
+![](/deleterequest.png)
+
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  THM{USER_IS_DELETED}
+</details>
+
+
+<br>
+<br>
+
+
+***Question***<br>
+Make a PUT request to /user/2 with the username parameter set to admin
+
+To solve this we have to change the request to a PUT request
+
+Then we set request to /user/2
+
+Then we se the parameter to username and the value to admin
+![](/parameteruser2.png)
+
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  THM{USER_HAS_UPDATED}
+</details>
+
+
+***Question***<br>
+POST the username of thm and a password of letmein to /login
+
+To solve this we set the request to a POST then type in the directory we are looking for
+![p](/postdirectory.png)
+
+
+Then we set the 2 parameters. Username to thm  and Password to letmein
+
+![](/postparameter.png)
+
+
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+  THM{HTTP_REQUEST_MASTER}
+</details>
+
+
+In summary, understanding HTTP and HTTPS is essential for navigating the web securely and efficiently. This blog covered the basic structure of HTTP requests and responses, explained common methods like GET and POST, and highlighted the importance of status codes and headers. With the added focus on securing communications through HTTPS, you now have a solid foundation for making informed decisions about web interactions.
+
+See you in the next room!
