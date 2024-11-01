@@ -1,7 +1,6 @@
 ---
 layout: post
 author: Eleazer
-tags: [Blue Team]
 title: "Careers in Cyber"
 permalink: /careers-in-cyber
 ---
