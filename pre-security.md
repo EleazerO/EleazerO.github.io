@@ -5,16 +5,15 @@ permalink: /pre-security
 
 ---
 
-<!--
-This section repeats in the Junior Penetration Testing Course⬇️
--->
 
 ## SECTION 1 - Introduction to Cyber Security
 - [Intro to Offensive Security](/intro-to-offensive-security)
 - [Intro to Defensive Security](/intro-to-defensive-security)
-{% comment %}
-The following sections are hidden and will not be displayed on the site:
+
 - [Careers in Cyber](/careers-in-cyber)
+
+<!--
+This section repeats in the Junior Penetration Testing Course⬇️
 
 ## SECTION 2 - Network Fundamentals
 - [What is Networking?](/what-is-networking)
@@ -29,15 +28,14 @@ The following sections are hidden and will not be displayed on the site:
 - [How Websites Work](/How-Websites-Work)
 - [Putting it all together](/Putting-it-all-together)
 
+
 ### SECTION 4
-- [Linux Fundamentals](/Linux-Fundamentals)
 - [Linux Fundamentals Part 1](/Linux-Fundamentals-Part-1)
 - [Linux Fundamentals Part 2](/Linux-Fundamentals-Part-2)
 - [Linux Fundamentals Part 3](/Linux-Fundamentals-Part-3)
 
 ### SECTION 5
-- [Windows Fundamentals](/Windows-Fundamentals)
 - [Windows Fundamentals 1](/Windows-Fundamentals-1)
 - [Windows Fundamentals 2](/Windows-Fundamentals-2)
 - [Windows Fundamentals 3](/Windows-Fundamentals-3)
-{% endcomment %}
+-->

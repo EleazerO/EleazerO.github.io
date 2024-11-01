@@ -28,17 +28,15 @@ Learning Paths:
 -  [Soc Level 1 ](https://tryhackme.com/path/outline/soclevel1)
 
 
-These rooms won't be covered except pre-security as this site is focused on  breaking down offensive Security. As this course makes the Jr Pentesting Course easier to understand
-
-
 ![Description of the image](noanswerneeded.png)
 
 
 ## TASK 3 -  Security Engineer
-Security engineers act as digital bodyguards for a company, using information about potential dangers and weaknesses gathered from other security experts. They create and set up protections to block a wide range of cyber attacks, including those targeting websites and internal networks, and they stay updated on new hacking methods. Their main goal is to continuously improve security measures to prevent attacks and protect the company's data from being lost or stolen.  In short a security egineer is  used  uses tools to secure the infrastructure of an orgnisation.
+Security engineers act as digital bodyguards for a company, using information about potential dangers and weaknesses gathered from other security experts. They create and set up protections to block a wide range of cyber attacks, including those targeting websites and internal networks, and they stay updated on new hacking methods.
+
+ Their main goal is to continuously improve security measures to prevent attacks and protect the company's data from being lost or stolen.  In short a security engineer is   uses tools to secure the infrastructure of an organisation.
 
 
-![Description of the image](noanswerneeded.png)
 Learning Paths:
 
 - [Soc Level 1 ](https://tryhackme.com/path/outline/soclevel1)
@@ -71,8 +69,7 @@ Learning Paths:
 
 
 ## TASK 5  -  Digital Forensics Examiner
-
-Digital Forensics examiners are the digital investigators in cyber Security. Their job is to use tech analyse and gather evidence for crimes committed
+Digital Forensics examiners are the digital investigators in cyber Security. Their job is to use tech to  analyse and gather evidence for crimes committed
 
 
 ![Description of the image](noanswerneeded.png)
@@ -86,7 +83,7 @@ As the name suggests this role involved deeply filtering through  programs and f
 
 
 ## Task 7  - Penetration Tester
-Penetration tester's jobs are to simulate the actions of a malicious hacker to find vulnerabilities that they would find but only this time the vulnerabilities are not exploited, they reported and remediated so that it will to be late for the actual hacker inflict any damage. This is ussualy done with set limitations on how extreme the penetration tester can legally hack
+Penetration tester's jobs are to simulate the actions of a malicious hacker to find vulnerabilities that they would find but only this time the vulnerabilities are not exploited, they reported and remediated so that it will to be late for the actual hacker inflict any damage. This is usually done with set limitations on how extreme the penetration tester can legally hack
 
 
 ![Description of the image](noanswerneeded.png)
@@ -107,6 +104,6 @@ Learning paths:
  - [Red Teaming](https://tryhackme.com/path/outline/redteaming)
 
 ## Task 9 - Quiz
- This task is more about finding what your preferences are. There's nothing  really technical to Walkthrough. Tryhackme is a great platform to gain any of skills for the career you want to pursue. All the best!
+ This task is more about finding what your preferences are. There's nothing  really technical in this  Walkthrough. Its more of a informative guide on the roles in cyber security. Tryhackme is a great platform to gain any of skills for the career you want to pursue. All the best!
 
 ![Description of the image](noanswerneeded.png)
