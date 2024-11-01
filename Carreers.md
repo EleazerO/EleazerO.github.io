@@ -76,7 +76,7 @@ Digital Forensics examiners are the digital investigators in cyber Security. The
 
 
 ## Task 6 - Malware Analyst
-As the name suggests this role involved deeply filtering through  programs and files to find any forms malware that can cause detriment to the end user. Because Programs are written in several languages such as assembly language, c language and python,  malware analysts need to have strong undersantdind to sift out anything and report it.
+As the name suggests this role involved deeply filtering through  programs and files to find any forms malware that can cause detriment to the end user. Because Programs are written in several languages such as assembly language, c language and python,  malware analysts need to have strong understanding to sift out anything and report it.
 
 
 ![Description of the image](noanswerneeded.png)
