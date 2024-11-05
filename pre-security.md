@@ -9,14 +9,15 @@ permalink: /pre-security
 ## SECTION 1 - Introduction to Cyber Security
 - [Intro to Offensive Security](/intro-to-offensive-security)
 - [Intro to Defensive Security](/intro-to-defensive-security)
-
 - [Careers in Cyber](/careers-in-cyber)
 
-<!--
-This section repeats in the Junior Penetration Testing Course⬇️
+
+
 
 ## SECTION 2 - Network Fundamentals
 - [What is Networking?](/what-is-networking)
+
+<!--
 - [Intro to LAN?](/intro_to_lan)
 - [OSI Model](/OSI-Model)
 - [Packets & Frames](/packets&frames)
@@ -38,4 +39,5 @@ This section repeats in the Junior Penetration Testing Course⬇️
 - [Windows Fundamentals 1](/Windows-Fundamentals-1)
 - [Windows Fundamentals 2](/Windows-Fundamentals-2)
 - [Windows Fundamentals 3](/Windows-Fundamentals-3)
+
 -->
