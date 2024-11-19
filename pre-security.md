@@ -14,7 +14,7 @@ permalink: /pre-security
 
 ## SECTION 2 - Network Fundamentals
 - [What is Networking?](/what-is-networking)
-- [Intro to LAN?](/intro_to_lan)
+- [Intro to LAN](/intro_to_lan)
 
 <!--
 - [OSI Model](/OSI-Model)
