@@ -150,7 +150,7 @@ All you have to do this time is create source path and saying its location is im
 </details>
 
 
-## Task 3 - JavaScript ##
+###Task 3 - JavaScript###
 
 JavaScript (JS) is like the magic that makes websites interactive and dynamic. While HTML gives structure and content to a webpage (like text, images, and buttons), JavaScript is what allows the page to do things when you interact with it, like changing a button color when you click it or showing a pop-up.
 

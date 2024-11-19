@@ -7,21 +7,21 @@ permalink: /intro_to_lan
 
 ## Task 1 - Local Area Network (LAN) Topologies ##
 
-LAN stands for Local Area network and is a type of network that covers a small geographic location for example a house or office building  
+***LAN*** stands for Local Area network and is a type of network that covers a small geographic location for example a house or office building  
 
-Topology is another name for the format or structure of something in this case we would be referring to a network
+***Topology*** is another name for the format or structure of something in this case we would be referring to a network
 
-### Types of Topology ##
+## Types of Topology ##
 
 **Star Topology**<br>
 ![Startopo](startopt.png)
 Star topologies are devices that are individually connected through a **switch** or **hub** usually through a **router**
 
 
-## What are they? ##
+### Networking Devices ###
 
 
-## Hubs ##
+### Hubs ###
 ![hubs](hub.jpg)
 Hub : Basic networking device that broadcasts internet and data to every computer or device it is connected to.
 
@@ -32,9 +32,7 @@ This means that all devices on the hub get the same data at the same time, and i
 
 ### Switches ##
 ![switch](switch.jpg)
-Switch: A switch is also a networking device that has a similar functionality to a hub in that it connects multiple devices within a network. However, unlike a hub, a switch receives internet and data and sends it only to the specific device that requested or is the intended recipient, based on the device's MAC address.
-
-
+ A switch is also a networking device that has a similar functionality to a hub in that it connects multiple devices within a network. However, unlike a hub, a switch receives internet and data and sends it only to the specific device that requested or is the intended recipient, based on the device's MAC address.
 
 
 A switch is more like a personal call. It knows exactly who the message is for and sends it directly to that person (device), instead of shouting it to everyone.
@@ -54,8 +52,7 @@ A router is a network device that sends internet to devices that are connected t
 
 
 <br>
-<br>
-<br>
+
 
 **Bus topology**<br>
 ![bus](bustopt.png)
@@ -97,7 +94,7 @@ What is the verb given to the job routers perform (hint:This is the term given t
 
 
 <br>
-<br>
+
 
 
 
@@ -135,8 +132,8 @@ What topology is expensive to set up and maintain (hint**** Topology:)
 <br>
 <br>
 
-**Question**
-Complete the interactive lab attached to this task. What is the flag given at the end?
+**Question**<br>
+.Complete the interactive lab attached to this task. What is the flag given at the end?
 
 
 ![ring](ring1lab.png)
@@ -186,20 +183,51 @@ So, if the main network is a large office building, a subnet might be a specific
 
 Subnet masks are used for 3 separate functions.
 
-1. Network Address
-2. Host address
-3. Defult gateway  
+- Network Address
+- Host address
+- Defult gateway  
 
-Their Definitions in detail:
+Their Definitions in detail:<br>
+
+1. ***Network Address***
+
+Think of the network address like the name of your street in an apartment complex. It tells you the general area where your apartment is located but doesn’t specify the exact apartment. In a network, the network address identifies the group or "neighborhood" of devices that belong together.
+
+Example:
+
+If the address is 192.168.1.0, it tells us that all devices in this network share the same "street name."
+
+
+
+2 . ***Host Address***
+The host address is like the specific apartment number in that building. While the network address tells you the street, the host address identifies exactly which house or apartment you're referring to. This ensures messages are delivered to the correct device on the network.
+
+Example:
+
+In 192.168.1.10, the 10 represents the specific device (or "apartment") on the 192.168.1.0 street.
+
+
+
+3 .  ***Default Gateway***
+The default gateway is like the front door or main entrance of your apartment building. If you need to send something (like a message) to a location outside your street or neighborhood, you first go through the main entrance to access the rest of the world. In a network, the default gateway is usually your router, which connects your local network to the internet or other networks.
+
+Example:
+
+If your device wants to access a website, it sends the request to the default gateway (router), which then forwards it to the correct destination outside your local network.
+
+
+In Summary:
+Network Address: Your "street name" (group of devices).<br>
+Host Address: Your "apartment number" (specific device).<br>
+Default Gateway: The "front door" to access things outside your network<br>
+
 ![si](subnetfeatues.png)
 
 
 
 
-**Questions**
+**Question**<br>
 What is the technical term for dividing a network into smaller piece?
-
-
 
 <details><br>
   <summary><strong>Click to see Answer</strong></summary>
@@ -210,7 +238,7 @@ What is the technical term for dividing a network into smaller piece?
 <br>
 
 
-**Questions**
+**Question**<br>
 How many bits are in a subnet mask(hint:his can be converted into 4 bytes)
 
 
@@ -223,7 +251,7 @@ How many bits are in a subnet mask(hint:his can be converted into 4 bytes)
 <br>
 
 
-**Questions**
+**Question**<br>
 What is the range of the section(octet) of a subnet mask?(hint:Smallest to largest)
 
 <details><br>
@@ -236,7 +264,7 @@ What is the range of the section(octet) of a subnet mask?(hint:Smallest to large
 <br>
 
 
-**Questions**
+**Question**<br>
 What is adress is used to identify the start of a network (hint:******* Address)
 
 
@@ -246,10 +274,10 @@ What is adress is used to identify the start of a network (hint:******* Address)
 </details>
 
 <br>
-<br>
 
 
-**Questions**
+
+**Question**<br>
 What is address is used to identify devices withing a network (hint:**** Address)
 
 
@@ -259,9 +287,9 @@ What is address is used to identify devices withing a network (hint:**** Address
 </details>
 
 <br>
-<br>
 
-**Questions**
+
+**Question**<br>
 What is the name used to identify the device responsible for sending data to another network?
 
 <details><br>
@@ -270,9 +298,12 @@ What is the name used to identify the device responsible for sending data to ano
 </details>
 
 <br>
-<br>
 
-##Task 3 ## The ARP protocol is used to make a device identifiable on a local network. It works by sending an ARP request to find out which device (IP address) has a specific MAC address. The device with the matching IP address responds with an ARP reply, stating that it has that corresponding MAC address. The result is stored in an ARP cache, which is used for future communications between devices on the local network. This allows devices to send and receive information accurately within the local network.
+## Task 3- ARP ##
+
+The ARP protocol is used to make a device identifiable on a local network. It works by sending an ***ARP request*** to find out which device (IP address) has a specific  ***MAC address***.
+
+The device with the matching IP address responds with an ***ARP reply***, stating that it has that corresponding MAC address. The result is stored in an ARP cache, which is used for future communications between devices on the local network. This allows devices to send and receive information accurately within the local network.
 
 
 
@@ -286,7 +317,7 @@ What does address resolution stand for
 </details>
 
 <br>
-<br>
+
 
 
 
@@ -302,7 +333,6 @@ What category of ARP Packet asks for a device wether or not it has a specific IP
 </details>
 
 <br>
-<br>
 
 
 **Question**<br>
@@ -314,7 +344,7 @@ What category of ARP Packet asks a device whether or not it has a specific IP ad
 </details>
 
 <br>
-<br>
+
 
 
 
@@ -327,10 +357,10 @@ What address is used as a logical identifier for a device on a network?
 </details>
 
 <br>
-<br>
 
 
 
+ ![Description of the image](noanswerneeded.png)
 
 
 ## TASK 4 - The DHCP Protocol ##
@@ -343,8 +373,6 @@ To see if any DHCP servers are on the network. The DHCP server then replies back
 The device then sends a reply confirming it wants the offered IP Address ***(DHCP Request)***, and then lastly, the DHCP server sends a reply acknowledging this has been completed, and the device can start using the IP Address ***(DHCP ACK)***.
 
 
-
-
 **Question**<br>
 What type of DHCP packet is used by a device to retrieve an IP address?(hint:DHCP ********)
 
@@ -354,7 +382,7 @@ What type of DHCP packet is used by a device to retrieve an IP address?(hint:DHC
 </details>
 
 <br>
-<br>
+
 
 **Question**<br>
 What type of DHCP packet does a device send once it has been offered an IP address by the DHCP server0 ?(hint:DHCP Request)
@@ -365,8 +393,6 @@ What type of DHCP packet does a device send once it has been offered an IP addre
 </details>
 
 <br>
-<br>
-
 
 
 **Question**<br>
@@ -378,8 +404,34 @@ Finally, what is the last DHCP packet that is sent to a device from a DHCP serve
 </details>
 
 <br>
-<br>
+
 
 
 
 ## TASK 5 - Continue your learning to OSI Model ##
+This write-up introduces key concepts and components of Local Area Networks (LANs) and their practical applications. It is organized into five main sections:
+
+LAN Topologies and Networking Devices
+
+Overview of LAN and network topologies such as Star, Bus, and Ring.
+Explains the function of networking devices: Hubs, Switches, and Routers.
+Practical examples and comparisons, such as how switches improve efficiency over hubs.
+Subnetting Basics
+
+Explains the concept of subnetting to divide networks into smaller segments.
+Introduces the subnet mask and its components: Network Address, Host Address, and Default Gateway.
+Describes how subnetting organizes data flow within a network.
+Address Resolution Protocol (ARP)
+
+Details how ARP resolves IP addresses to MAC addresses for device communication within a LAN.
+Differentiates between ARP requests and replies.
+DHCP Protocol
+
+Explains how the Dynamic Host Configuration Protocol (DHCP) assigns temporary IP addresses to devices.
+Breaks down the four key steps: DHCP Discover, Offer, Request, and ACK.
+Practical Questions and Tasks
+
+Includes interactive questions and labs to reinforce understanding of key topics.
+Covers practical applications of topology, subnetting, ARP, and DHCP.
+
+ ![Description of the image](noanswerneeded.png)

@@ -193,12 +193,7 @@ What flag do you get when you ping 8.8.8.8
 
 ## Task 5 ##
 
-
 In summary
-
-
-Here’s a layman's summary:
-
 
 ***Networking*** is about connecting devices together to share information. When devices are connected, we call this a network.
 
@@ -217,9 +212,3 @@ Another identifier, called a ***MAC address***, is like a "name tag" for a devic
 ***Ping*** is a tool that checks the connection between two devices. It sends small data packets to see how fast they reach the other device and come back. This is useful for testing if a device can be reached on a network.
 
 That's this room done see you in the next room!
-
-One more thing please like and share the site. It helps the content grow and reach others interested in offensive  security
-
-Thanks
-
-Eleazer

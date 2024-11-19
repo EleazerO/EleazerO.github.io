@@ -12,13 +12,11 @@ permalink: /pre-security
 - [Careers in Cyber](/careers-in-cyber)
 
 
-
-
 ## SECTION 2 - Network Fundamentals
 - [What is Networking?](/what-is-networking)
+- [Intro to LAN?](/intro_to_lan)
 
 <!--
-- [Intro to LAN?](/intro_to_lan)
 - [OSI Model](/OSI-Model)
 - [Packets & Frames](/packets&frames)
 - [Extending Your Network](/Extending-Your-Network)
@@ -39,5 +37,4 @@ permalink: /pre-security
 - [Windows Fundamentals 1](/Windows-Fundamentals-1)
 - [Windows Fundamentals 2](/Windows-Fundamentals-2)
 - [Windows Fundamentals 3](/Windows-Fundamentals-3)
-
 -->
