@@ -19,8 +19,8 @@ permalink: /pre-security
 
 - [OSI Model](/OSI-Model)
 - [Packets & Frames](/packets&frames)
-<!--
-- [Extending Your Network](/Extending-Your-Network)
+
+<!-- - [Extending Your Network](/Extending-Your-Network)
 
 ### SECTION 3 - How the Web Works
 - [DNS in Detail](/DNS-in-Detail)
@@ -38,6 +38,4 @@ permalink: /pre-security
 - [Windows Fundamentals 1](/Windows-Fundamentals-1)
 - [Windows Fundamentals 2](/Windows-Fundamentals-2)
 - [Windows Fundamentals 3](/Windows-Fundamentals-3)
-
-
 -->
