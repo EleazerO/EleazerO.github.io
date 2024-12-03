@@ -16,9 +16,10 @@ permalink: /pre-security
 - [What is Networking?](/what-is-networking)
 - [Intro to LAN](/intro_to_lan)
 
-<!--
+
 - [OSI Model](/OSI-Model)
 - [Packets & Frames](/packets&frames)
+<!--
 - [Extending Your Network](/Extending-Your-Network)
 
 ### SECTION 3 - How the Web Works
@@ -37,4 +38,6 @@ permalink: /pre-security
 - [Windows Fundamentals 1](/Windows-Fundamentals-1)
 - [Windows Fundamentals 2](/Windows-Fundamentals-2)
 - [Windows Fundamentals 3](/Windows-Fundamentals-3)
+
+
 -->

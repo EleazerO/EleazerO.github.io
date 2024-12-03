@@ -6,7 +6,7 @@ permalink: /packets&frames
 ---
 
 ## Task 1 - What are the Packets and Frames
----
+
 
 When data is sent over a network, it is broken down into smaller units called **packets**. These packets are individual segments of the entire data set and are sent separately across the network. Each packet contains a piece of the original data, along with information like the sender's address, the receiver's address, and sequence information to ensure that the packets can be reassembled correctly at the destination. Once all packets reach the receiving computer, they are reassembled into the original form of the data.
 
@@ -29,9 +29,6 @@ What is the name for a piece of data when it does have IP addressing information
   Packet
 </details>
 
-<br>
-<br>
-
 
 
 **Question:**  
@@ -46,7 +43,7 @@ What is the name for a piece of data when it does not have IP addressing informa
 
 
 ## Task 2 - TCP/IP (The Three-Way Handshake)
----
+
 This protocol is very similar to the OSI model the TCP/IP protocol consists of four layers and is arguably just a summarised version of the OSI model. The layers are:
 
 - Application
@@ -243,6 +240,4 @@ So, the combination of the IP address and the port number tells your device not 
 
 
 ## Task 6 - Continue  Your Learning: Extending Your Network  ##
-
-
-![Extending Your Network](/Extending-Your-Network)
+See you in the in the next room.
