@@ -162,15 +162,15 @@ The VPN then sends your data out to the internet using a different IP address (t
 ![m](typesofvpn.png)
 
 There some others not listed such as:
--Remote Access VPN
--Site-to-Site VPN
--Client-Based VPN
--SSL/TLS VPN
--OpenVPN
--MPLS VPN (Multiprotocol Label Switching)
--Hybrid VPN
--Cloud VPN
--Mobile VPN
+- Remote Access VPN
+- Site-to-Site VPN
+- Client-Based VPN
+- SSL/TLS VPN
+- OpenVPN
+- MPLS VPN (Multiprotocol Label Switching)
+- Hybrid VPN
+- Cloud VPN
+- Mobile VPN
 
 
 
