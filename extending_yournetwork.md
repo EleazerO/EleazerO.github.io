@@ -173,7 +173,7 @@ The VPN then sends your data out to the internet using a different IP address (t
 
 ***Some existing VPN'S***
 
-![Types of VPNs](/guipvpn.png)
+![u](/guipvpn.png)
 
 Other types not listed include:
 - Remote Access VPN
