@@ -19,9 +19,10 @@ permalink: /pre-security
 
 - [OSI Model](/OSI-Model)
 - [Packets & Frames](/packets&frames)
+- [Extending Your Network](/Extending-Your-Network)
 
-<!-- - [Extending Your Network](/Extending-Your-Network)
 
+<!--
 ### SECTION 3 - How the Web Works
 - [DNS in Detail](/DNS-in-Detail)
 - [HTTP in Detail](/HTTP-in-Detail)
