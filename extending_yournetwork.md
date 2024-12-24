@@ -158,10 +158,24 @@ The VPN then sends your data out to the internet using a different IP address (t
 <br>
 ***Accessing Blocked Content***: A VPN can make it look like you're browsing the internet from a different location. This is useful for accessing websites or services that are restricted in certain countries.
 
-**Some existing VPN'S**
-![](/typesofvpn.png)
+## Task 4 - VPN Basics ##
 
-There some others not listed such as:
+A ***VPN (Virtual Private Network)*** is like a secure tunnel for your internet traffic. Here’s an easy way to think about it.
+
+***Without a VPN***<br>
+When you browse the internet normally, all the information you send and receive (like the websites you visit, the things you search for, or your messages) travels directly from your device (phone, computer) to the website’s server. Anyone with the right tools, like your internet provider or hackers on public Wi-Fi, could potentially see what you’re doing online.
+
+***With a VPN***<br>
+A VPN creates a private, encrypted tunnel between your device and the internet. This means that everything you do online first goes through this tunnel, which scrambles your data so no one can easily read it.  
+The VPN then sends your data out to the internet using a different IP address (the address that identifies your device). Instead of your real IP address (which shows your location), it uses the IP address of the VPN server. This hides where you are and what you're doing online.
+
+
+
+***Some existing VPN'S***
+
+![Types of VPNs](/typesofvpn.png)
+
+Other types not listed include:
 - Remote Access VPN
 - Site-to-Site VPN
 - Client-Based VPN
@@ -171,7 +185,6 @@ There some others not listed such as:
 - Hybrid VPN
 - Cloud VPN
 - Mobile VPN
-
 
 
 
