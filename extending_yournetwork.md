@@ -159,7 +159,7 @@ The VPN then sends your data out to the internet using a different IP address (t
 ***Accessing Blocked Content***: A VPN can make it look like you're browsing the internet from a different location. This is useful for accessing websites or services that are restricted in certain countries.
 
 **Types of VPN'S**
-![typesofvpn](typesofvpn.png)
+![](typesofvpn.png)
 
 
 
