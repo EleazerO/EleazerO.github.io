@@ -158,8 +158,27 @@ The VPN then sends your data out to the internet using a different IP address (t
 <br>
 ***Accessing Blocked Content***: A VPN can make it look like you're browsing the internet from a different location. This is useful for accessing websites or services that are restricted in certain countries.
 
-**Types of VPN'S**
-![m](/typesofvpn.png)
+**Some existing VPN'S**
+![m](typesofvpn.png)
+
+There some others not listed such as:
+-Remote Access VPN
+-Site-to-Site VPN
+-Client-Based VPN
+-SSL/TLS VPN
+-IPsec VPN
+-OpenVPN
+-PPTP (Point-to-Point Tunneling Protocol)
+-L2TP/IPsec (Layer 2 Tunneling Protocol)
+-MPLS VPN (Multiprotocol Label Switching)
+-Hybrid VPN
+-Cloud VPN
+-Mobile VPN
+What it is:
+Keeps your connection stable and secure while you switch between networks (like Wi-Fi and mobile data).
+Example:
+Like having a secure phone call that doesn’t drop when you walk out of your house and switch to cellular.
+
 
 
 
