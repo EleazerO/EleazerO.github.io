@@ -7,7 +7,7 @@ permalink: /Extending-Your-Network
 
 
 
-## Task 1 Introduction to Port Forwarding  ##
+## Task 1 -  Introduction to Port Forwarding  ##
 
 
 What is Port Forwarding?<br>
