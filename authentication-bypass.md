@@ -308,9 +308,104 @@ This is what it looks like
 Hover over the id. It's hyperlinked.
 ![](/linktorobertsaccount.png)
 
-In the code you'll see a link that sends us to the roberts account.
+In the code you'll see a link that sends us to the Roberts account.
 ![](/robertsflag.png)
 
-Sorry robert..
+Sorry Robert..
 
-## Task 5 - Cookie Tampering ##
+## Task 5 - Cookie Tampering  <br>
+***Cookies*** are small pieces of data that websites store on your computer to keep track of your activity and preferences. These cookies often include details like whether you're logged in or have specific privileges. In some cases, these cookies are stored in plain text, making it easy to read and modify them. Here's what happened step-by-step in this scenario:
+
+Initial Check (No Cookies Sent)<br>
+When you request the page without providing any cookies (using curl), the website responds with:
+
+```
+root@ip-10-10-49-143:~# curl http://10.10.211.234/cookie-test
+Not Logged Inroot@ip-10-10-49-143:~#
+
+```
+
+
+"Not Logged In"
+This means the website doesn't recognize you as logged in because no cookies were sent with the request.
+
+Adding Basic Cookies (Regular User)<br>
+By sending cookies (logged_in=true; admin=false) with your request, you tell the website you're logged in but not an admin. The website responds with it the request after you type it like this:
+
+```
+root@ip-10-10-49-143:~# curl -H "Cookie: logged_in=true; admin=false" http://10.10.211.234/cookie-test
+Logged In As A Userroot@ip-10-10-49-143:~#
+```
+
+"Logged In As A User"
+This is what a regular user would see.
+
+Modifying Cookies for Admin Access<br>
+By changing the cookies (logged_in=true; admin=true) to indicate that you're both logged in and an admin, the website assumes you're an administrator. It responds with:
+
+```
+root@ip-10-10-49-143:~# curl -H "Cookie: logged_in=true; admin=true" http://10.10.211.234/cookie-test
+Logged In As An Admin - THM{COOKIE_TAMPERING}root@ip-10-10-49-143:~#
+```
+
+"Logged In As An Admin"
+This gives you elevated privileges and access to restricted areas or information, such as the flag.
+
+
+#### Hashing #####
+
+
+Hashing is a way to take any piece of data (like a password, file, or text) and turn it into a unique-looking string of characters, called a hash. It’s like a fingerprint for data—each piece of data will always produce the same hash, but the hash doesn’t reveal the original data.
+
+
+Original String: This is the data you start with. For example, let's say it’s the number "1."
+Hash Method: This is the specific formula or recipe used to create the hash. Popular methods include MD5, SHA-1, SHA-256, and SHA-512. Each method produces a hash that looks different.
+Output (Hash): The result is the "fingerprint" of the original data. It’s a long string of random-looking characters.
+
+
+***Why is hashing useful?***<br>
+ You can’t "unhash" it to figure out the original data. This makes it safe for storing sensitive data like passwords.<br>
+ Even small changes to the original data (like changing "1" to "2") create a completely different hash.
+<br>
+You can compare two hashes to check if two pieces of data are the same without needing the original data.
+Imagine you put your hand on an ink pad and leave a fingerprint on paper. The fingerprint represents your hand, but no one can recreate your hand just by looking at the print. Similarly, a hash represents the data without revealing it.
+
+
+
+
+
+
+***Question***<br>
+What is the flag from changing the plain text cookie values?
+
+Go to [CrackStation](https://crackstation.net) and paste the hash. That's all
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+THM{COOKIE_TAMPERING}
+</details>
+
+***Question***
+What is the value of the md5 hash 3b2a1053e3270077456a79192070aa78 ?
+
+Go to [CrackStation](https://crackstation.net)
+
+***Question***<br>
+What is the base64 decoded value of VEhNe0JBU0U2NF9FTkNPRElOR30= ?
+
+Same method. Go to the  and decode the hash.
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+THM{BASE64_ENCODING}
+</details>
+
+
+***Question***<br>
+Encode the following value using base64 {"id":1,"admin":true}
+
+Go to [base64encode.org](base64encode.org ) and decode.
+
+<details>
+  <summary><strong>Click to see Answer</strong></summary>
+eyJpZCI6MSwiYWRtaW4iOnRydWV9
+</details>

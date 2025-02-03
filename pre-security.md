@@ -25,15 +25,16 @@ permalink: /pre-security
 
 ### SECTION 3 - How the Web Works
 - [DNS in Detail](/DNS-in-Detail)
+- [HTTP in Detail](/HTTP-in-Detail)
+
 
 <!--
-- [HTTP in Detail](/HTTP-in-Detail)
 - [How Websites Work](/How-Websites-Work)
 - [Putting it all together](/Putting-it-all-together)
 -->
 
-<!--
 
+<!--
 ### SECTION 4
 - [Linux Fundamentals Part 1](/Linux-Fundamentals-Part-1)
 - [Linux Fundamentals Part 2](/Linux-Fundamentals-Part-2)

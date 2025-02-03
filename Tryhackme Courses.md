@@ -11,7 +11,7 @@ permalink: /tryhackme_courses
 
 If you're interested in more walkthroughs, please check back later as there would be  more courses added  soon!
 
-<!--
+
 ### Jr Penetration Tester [Click here](/jrpentest_index)
 
 
@@ -22,5 +22,5 @@ If you're interested in more walkthroughs, please check back later as there woul
 
 [Home](https://www.yourhomepage.com) | [<< First](#) | [<Previous](#) | [1](#) | [2](#) | [3](#) |[4](#) | [5](#) | [Next>](#) | [Last >>](#)
 
-
+<!--
 -->
