@@ -18,5 +18,3 @@ If you're interested in more walkthroughs, please check back later as there woul
 ### Red Teaming [Click here](/redteaming)
 
 
-
-[Home](https://www.yourhomepage.com) | [<< First](#) | [<Previous](#) | [1](#) | [2](#) | [3](#) |[4](#) | [5](#) | [Next>](#) | [Last >>](#)
