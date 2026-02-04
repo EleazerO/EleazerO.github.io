@@ -1,11 +1,19 @@
-title: Offensive Security
+# Site settings
+
+title: Eleazer's Cybersecuirty Blog
 author: EleazerO
-url: https://www.EleazerO.com # root address of the site
-description: >
-  Welcome to my cybersecurity journey, where I explore and share insights on
-  penetration testing, vulnerability assessments, and Capture The Flag (CTF) challenges.
-  Join me as I document my hands-on experience and learning in the field of
-  ethical hacking and cybersecurity.
+url: "https://www.EleazerO.com"
+description: |
+  Welcome and feel free to go through what I've come across in Cybersecurity.
+  <br>
+  <br>
+
+  Thanks for Visiting 💙
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 
 permalink: /:slug
 
@@ -51,4 +59,4 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-soopr-seo-tag
+  - jekyll-seo-tag

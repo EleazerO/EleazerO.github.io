@@ -9,7 +9,18 @@ navbar_entries:
 project_entries:
   - title: Tryhackme
     url: /tryhackme_courses
-    desc: Courses that help with starting your hacking Journey
+    desc: Teaching ethical penetration with tryhackme
+
+  - title: SC-900 Fundamentals
+    url: /sc900_course
+    desc: Teaching Microsoft Security, Compliance, and Identity fundamentals with hands-on labs
+    highlight: NEW
+
+  - title: oscp
+    url: /oscp
+    desc: Teaching Teaching penetration testing with offec
+    highlight: NEW
+
 
 
 old_project_entries:
